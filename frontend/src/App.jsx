@@ -12,7 +12,7 @@ import ContactoPage from "./pages/ContactoPage";
 import NosotrosPage from "./pages/NosotrosPage";
 import NovedadesPage from "./pages/NovedadesPage";
 import ServiciosPage from "./pages/ServiciosPage";
-import GaleriaPage from "./pages/ServiciosPage";
+import GaleriaPage from "./pages/GaleriaPage";
 
 function App() {
   return (
