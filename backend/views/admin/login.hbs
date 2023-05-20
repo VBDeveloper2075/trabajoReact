@@ -11,14 +11,12 @@
       <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" name="password">
     </div>
   </div>
-  <div class="mb-3 row">
-    <div class="col-sm-10">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
+  <div class="mb-3 row" "col-sm-10">
+      <button type="submit" class="btn btn-primary">Guardar</button>
   </div>
-  <button type="submit" class="btn btn-primary">Guardar</button>
+ 
 </form>
-  {{!-- {{#if error}} --}}
+  {{#if error}}
     <p>Usuario y/o Contraseña incorrectos</p>
-  {{!-- {{/if error}} --}}
+  {{/if }}
 </div>
