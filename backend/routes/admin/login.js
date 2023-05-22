@@ -3,12 +3,6 @@ var router = express.Router();
 var usuariosModel = require('./../../models/usuariosModel')
 
 /* GET home page. */
-router.get('/', function (req, res, next) {
-  res.render('admin/login',{  //login.hbs
-    layout:'admin/layout'   //layout.hbs
-  });
-});
-
 router.get('/logout', function (req, res, next){
   req.session.destroy();
   res.render('admin/login', {
